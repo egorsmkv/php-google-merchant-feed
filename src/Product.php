@@ -307,7 +307,7 @@ class Product
      *
      * @return $this
      */
-    public function setMaterial($gender)
+    public function setGender($gender)
     {
         $this->setAttribute('gender', $gender, false);
         return $this;
