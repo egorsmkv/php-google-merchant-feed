@@ -326,7 +326,20 @@ class Product
         $this->setAttribute('gender', $gender, false);
         return $this;
     }
-
+    
+    /**
+     * Sets item_group_id of the product.
+     *
+     * @param string $itemGroupID
+     *
+     * @return $this
+     */
+    public function setGender($itemGroupID)
+    {
+        $this->setAttribute('item_group_id', $itemGroupID, false);
+        return $this;
+    }
+    
     /**
      * Sets size of the product.
      *
