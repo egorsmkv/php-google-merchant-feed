@@ -301,6 +301,19 @@ class Product
     }
 
     /**
+     * Sets gender of the product.
+     *
+     * @param string $gender
+     *
+     * @return $this
+     */
+    public function setMaterial($gender)
+    {
+        $this->setAttribute('gender', $gender, false);
+        return $this;
+    }
+
+    /**
      * Sets size of the product.
      *
      * @param string $size
