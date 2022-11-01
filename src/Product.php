@@ -103,32 +103,6 @@ class Product
     }
 
     /**
-     * Sets additional image of the product.
-     *
-     * @param string $imageUrl
-     *
-     * @return $this
-     */
-    public function setAdditionalImage($imageUrl)
-    {
-        $this->setAttribute('additional_image_link', $imageUrl, true);
-        return $this;
-    }
-
-    /**
-     * Sets additional image of the product.
-     *
-     * @param string $imageUrl
-     *
-     * @return $this
-     */
-    public function addAdditionalImage($imageUrl)
-    {
-        $this->addAttribute('additional_image_link', $imageUrl, true);
-        return $this;
-    }
-
-    /**
      * Sets availability of the product.
      *
      * @param string $availability
