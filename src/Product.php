@@ -334,7 +334,7 @@ class Product
      *
      * @return $this
      */
-    public function setGender($itemGroupID)
+    public function setItemGroupID($itemGroupID)
     {
         $this->setAttribute('item_group_id', $itemGroupID, false);
         return $this;
