@@ -110,7 +110,7 @@ class Product
      */
     public function setNew($value)
     {
-        $this->setAttribute('new', $value, true);
+        $this->setAttribute('new', $value, false);
         return $this;
     }
 
