@@ -108,7 +108,7 @@ class Product
      *
      * @return $this
      */
-    public function setAdditionalImage($value)
+    public function setNew($value)
     {
         $this->setAttribute('new', $value, true);
         return $this;
