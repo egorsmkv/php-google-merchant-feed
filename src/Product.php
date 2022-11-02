@@ -88,7 +88,6 @@ class Product
         return $this;
     }
     
-    
     /**
      * Sets additional image of the product.
      *
@@ -99,6 +98,19 @@ class Product
     public function setAdditionalImage($imageUrl)
     {
         $this->setAttribute('additional_image_link', $imageUrl, true);
+        return $this;
+    }
+    
+    /**
+     * Sets "new" attribute of the product.
+     *
+     * @param string $value
+     *
+     * @return $this
+     */
+    public function setAdditionalImage($value)
+    {
+        $this->setAttribute('new', $value, true);
         return $this;
     }
 
